@@ -81,8 +81,33 @@ h4,
 h5,
 h6 {
   font-family: 'Ferdinand';
+  letter-spacing: 0.5rem;
 }
 
 html {
   font-family: 'Washington';
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p, li {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.3rem;
+}
+
+body {
+  line-height: 3rem;
+}
+
+h2 + p {
+  text-indent: 20px;
 }
