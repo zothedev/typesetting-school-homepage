@@ -1,67 +1,88 @@
 /* fontface */
 
 @font-face {
-    font-family: 'Heading Now';
-    src: url('fonts/HeadingNowTrial-04Regular.woff2') format('woff2'),
-        url('fonts/HeadingNowTrial-04Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Ferdinand';
+  src: url('fonts/FerdinandRegular.woff2') format('woff2'),
+    url('fonts/FerdinandRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Washington';
-    src: url('fonts/WashingtonRegular.woff2') format('woff2'),
-        url('fonts/WashingtonRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Washington';
+  src: url('fonts/WashingtonRegular.woff2') format('woff2'),
+    url('fonts/WashingtonRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+
+
+
 
 
 /* General setup */
 
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0 auto;
-    min-width: 1000px;
-    max-width: 1400px;
-  }
-  
-  /* Layout */
-  
-  section {
-    float: left;
-    width: 50%;
-  }
-  
-  aside {
-    float: left;
-    width: 30%;
-  }
-  
-  nav {
-    float: left;
-    width: 20%;
-  }
-  
-  footer {
-    clear: both;
-  }
-  
-  header, section, aside, nav, footer {
-    padding: 20px;
-  }
-  
-  /* header and footer */
-  
-  header, footer {
-    border-top: 5px solid #a66;
-    border-bottom: 5px solid #a66;
-  }
-  
-  /* WRITE YOUR CODE BELOW HERE */
-  
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ferdinand';
+}
+
+html {
+  font-family: 'Washington';
+}
