@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Heading Now Trial 04';
+    src: url('HeadingNowTrial-04Regular.woff2') format('woff2'),
+        url('HeadingNowTrial-04Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Washington';
+    src: url('WashingtonRegular.woff2') format('woff2'),
+        url('WashingtonRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
