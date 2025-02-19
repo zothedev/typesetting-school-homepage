@@ -1,3 +1,24 @@
+/* fontface */
+
+@font-face {
+    font-family: 'Heading Now';
+    src: url('fonts/HeadingNowTrial-04Regular.woff2') format('woff2'),
+        url('fonts/HeadingNowTrial-04Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Washington';
+    src: url('fonts/WashingtonRegular.woff2') format('woff2'),
+        url('fonts/WashingtonRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* General setup */
 
 * {
@@ -43,3 +64,4 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  
