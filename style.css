@@ -100,7 +100,7 @@ h2 {
 
 p,
 li {
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 0.3rem;
   word-spacing: 0.3rem;
 }
@@ -125,6 +125,8 @@ a[href^="https://"]::after {
 
 body {
   line-height: 3rem;
+  border-left: #a66 5px solid;
+  border-right: #a66 5px solid;
 }
 
 h2+p {
@@ -153,8 +155,25 @@ a:active {
   color: black;
 }
 
-li {
+ul {
   list-style-position: inside;
   list-style-type: square;
   line-height: 4rem;
+}
+
+nav {
+  position: fixed;
+  top: 24rem;
+  right: 17%;
+  width: 12%;
+  height: 30%;
+  background-color: rgba(254, 206, 206, 0.358);
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+  border: 3px solid #a66;
+}
+
+nav ul {
+  list-style-type: none;
 }
