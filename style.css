@@ -104,6 +104,18 @@ p, li {
   word-spacing: 0.3rem;
 }
 
+a[href^="http"]::after,
+a[href^="https://"]::after {
+  content: "";
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("./icon.png");
+  padding-left: 5px;
+  width: 12px;
+  height: 12px;
+}
+
 body {
   line-height: 3rem;
 }
@@ -111,3 +123,25 @@ body {
 h2 + p {
   text-indent: 20px;
 }
+
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: rgb(113, 69, 69);
+}
+
+a:hover, a:focus {
+  color: rgb(137, 137, 137);
+  text-decoration-line: none;
+}
+
+a {
+  outline: none;
+}
+
+a:active {
+  color: black;
+}
+
